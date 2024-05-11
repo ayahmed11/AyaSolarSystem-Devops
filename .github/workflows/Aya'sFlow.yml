@@ -1,0 +1,12 @@
+name: firstflow
+on: 
+push:
+  branches: 
+    - main 
+
+jobs:
+  First:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print msg 
+        run: echo"aya"
